@@ -1,6 +1,6 @@
 class Z_ABAPCLASS definition
   public
-  METHODS write_message
+  METHODS write_message.
   final
   create public .
 
