@@ -1,10 +1,10 @@
 class Z_ABAPCLASS definition
   public
-  METHODS write_message.
   final
   create public .
 
 public section.
+ METHODS write_message.
 
 protected section.
 private section.
