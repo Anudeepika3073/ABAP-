@@ -1,6 +1,6 @@
 class Z_ABAPCLASS definition
   public
-  Write "I changed my abap source code".
+  METHODS write_message
   final
   create public .
 
@@ -14,6 +14,6 @@ ENDCLASS.
 
 CLASS Z_ABAPCLASS IMPLEMENTATION.
 METHOD write_message.
-    WRITE: 'I changed my ABAP source code'.
+    WRITE 'I changed my ABAP source code'.
   ENDMETHOD.
 ENDCLASS.
